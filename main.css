@@ -1,0 +1,72 @@
+
+.container{
+	width: 1200px;
+	height: 600px;
+	background-color: #8CB27C;
+	position: absolute;
+}
+#interior{
+	width: 1150px;
+	height: 550px;
+	border: 1px solid white;
+	margin: 25px;
+	}
+
+.left{
+	width: 150px;
+	height: 250px;
+	border: 1px solid white;
+	position: relative;
+	top: 150px;
+	right: 1px;
+	float: left;
+
+}
+
+.circle{
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	border: 1px solid white;
+	position: relative;
+	top: 150px;
+	left: 300px;
+	float: left;
+	}
+
+	.right{
+	width: 150px;
+	height: 250px;
+	border: 1px solid white;
+	position: relative;
+	top: 150px;
+	float: left;
+	left: 595px;
+}
+
+.clearfix:before, .clearfix:after{
+	content:" ";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+
+.primera{
+	position: relative;
+	float: left;
+	right: 417px;
+	top: 155px;
+}
+.segunda{
+	position: relative;
+	float: left;
+	top: 70px;
+	left: 27px;
+}
+.tercera{
+	position: relative;
+	float: left;
+	left: 365px;
+	top: 370px;
+}
